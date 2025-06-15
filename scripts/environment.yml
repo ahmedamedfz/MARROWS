@@ -1,0 +1,17 @@
+name: yolov8-bone
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - ipykernel
+  - scikit-learn
+  - python-color-transfer
+  - pip:
+      - ultralytics>=8.0.0
+      - opencv-python
