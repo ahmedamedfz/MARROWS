@@ -1,6 +1,10 @@
 .DS_Store
 /data
 /notebooks/runs
+*.txt
 *.png
 *.JPG
 *.pyc
+*.zip
+
+!requirement.txt
